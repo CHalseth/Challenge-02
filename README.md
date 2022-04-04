@@ -8,7 +8,7 @@ a portfolio website
 * CSS
 
 ## Website
-
+https://chalseth.github.io/Challenge-02/
 
 ## Contributions
 Corey Halseth
