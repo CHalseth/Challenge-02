@@ -1,0 +1,152 @@
+/* root souurcing */
+:root {
+    --primary-color: cyan;
+    --secondary-color: teal;
+    --tertiary-color: rgb(77, 76, 76);
+    --txtshadow: rgba (0, 0, 0, .5)
+}
+
+/* Universal styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+body {
+    color: var(--primary-color);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* header styles */
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin: 0;
+    text-shadow: var(--txtshadow)
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-shadow: 0 0 10px var(--txtshadow)
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin: 0;
+    display: inline;
+}
+
+/* Footer */
+footer {
+    background: var(--tertiary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin: 0;
+    justify-content: center;
+}
+
+footer div {
+    line-height: 2;
+    text-align: center;
+}
+
+.hero {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    line-height: 20;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0;
+    align-items: flex-end;
+
+}
+
+.about-me {
+    background-color:rgb(77, 76, 76);
+}
+
+.about-me h3 {
+    font-size: 3rem;
+}
+.about-me p {
+   line-height: 1.7;
+   width: 80%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.run-buddy {
+    background-color: var(--primary-color);
+}
+
+.run-buddy h3 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.run-buddy p {
+    color: var(--tertiary-color);
+    text-align: center;
+}
